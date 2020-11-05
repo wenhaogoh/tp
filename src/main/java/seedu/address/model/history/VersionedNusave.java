@@ -11,7 +11,7 @@ public class VersionedNusave {
     private final BudgetList budgetList;
 
     /**
-     * Constructs a {@code VerisonedNusave}.
+     * Constructs a {@code VersionedNusave}.
      * @param state the current state of NUSave
      * @param nusave the NUSave model to be versioned
      */

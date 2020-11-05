@@ -1,7 +1,7 @@
 package seedu.address.model.history;
 
 /**
- * Represents a node in a doubly- inked list.
+ * Represents a node in a doubly-linked list.
  * @param <T> the type of the doubly-linked list.
  */
 public class Node<T> {
