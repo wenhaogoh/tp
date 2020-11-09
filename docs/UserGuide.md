@@ -68,6 +68,8 @@ based on your entries to gain useful insights regarding your spending habits.
 
 What's more, NUSave has:
 <br/>
+<br/>
+<br/>
 - a **[Command Line Interface (CLI)](#7-glossary)** catered to those who can type fast and prefer to use a keyboard. In other words, you
 navigate the application and execute instructions by keying in text-based commands into the [command box](#3-gui-layout) provided.
 - a **[Graphical User Interface (GUI)](#7-glossary)** to provide you with a visually appealing and aesthetic user experience. Essentially,
@@ -162,6 +164,8 @@ Below is a table containing all the components that can be found in a budget car
 <br/>
 <br/>
 <br/>
+<br/>
+<br/>
 
 Component         | Purpose
 ----------------- | -------
@@ -182,6 +186,14 @@ Here is how a budget page should look like:
 Figure 3.2.1. Example of a budget page view.
 
 Below is a table containing all the components that can be found on a budget page accompanied by their respective purposes:
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 
 Component | Purpose
 --------- | -------
@@ -401,6 +413,8 @@ Format: `edit INDEX [n/NAME] [p/THRESHOLD]`
 <br/>
 <br/>
 <br/>
+<br/>
+<br/>
 
 Prefix | Parameters | Requirement | Comments | Constraints |
 -------| ---------- | ----------- | -------- | ----------- |
@@ -470,6 +484,11 @@ This will display all budgets that are currently stored in NUSave as seen in Fig
 ![Example of list budgets command](images/CommandScreenShots/5_2_5_1_listBudgets.png)
 
 Figure 5.2.5.1. Example of using the list budgets command.
+
+<br/>
+<br/>
+<br/>
+<br/>
 
 #### 5.2.6. Sorting budgets: `sort`
 
@@ -551,6 +570,8 @@ The following commands in this subsection are only available on the budget page.
 Format: `add n/NAME p/PRICE [t/TAG]`
 <br/>
 <br/>
+<br/>
+<br/>
 
 Prefix | Parameters | Requirement | Comments | Constraints |
 -------| -----------| ------------| -------- | ----------- |
@@ -599,6 +620,7 @@ Figure 5.3.2.1. Example of delete expenditure command
 
 Format: `edit INDEX [n/NAME] [p/PRICE]`
 
+<br/>
 <br/>
 <br/>
 <br/>
@@ -724,6 +746,13 @@ This will close the current budget named "NUS Hackers Monthly Budget" as seen in
 
 Figure 5.3.7.1. Example of using the close budget command.
 
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
 ## 6. Command Summary
 (Contributed by Yu Ming)
 
@@ -766,6 +795,14 @@ Figure 5.3.7.1. Example of using the close budget command.
 
 You can find the meanings of some special keywords applicable to NUSave over here.
 
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
 | Term                        | Explanation                                                                                                                                                                    
 |---------------------------- |-----------------------------------------------------------------------------------------------------------------------------------
 | CLI                         | Short for Command Line Interface. CLI-based Applications (i.e. NUSave) focuses on processing commands in the form of text entered from the keyboard.                       
@@ -778,6 +815,11 @@ You can find the meanings of some special keywords applicable to NUSave over her
 | Main Page                   | Refers to the page that displays the list of budgets that is stored in NUSave.                                                                                                 
 | Budget Page                 | Refers to the page that displays the list of expenditures belonging in a specific budget that is stored in NUSave.                                                             
 | Threshold                   | Refers to the target limit that can be spent in that budget.
+
+<br/>
+<br/>
+<br/>
+<br/>
 
 ## 8. FAQ
 (Contributed by Chin Hui)
