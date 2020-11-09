@@ -192,6 +192,8 @@ Below is a table containing all the components that can be found on a budget pag
 <br/>
 <br/>
 <br/>
+<br/>
+<br/>
 
 Component | Purpose
 --------- | -------
