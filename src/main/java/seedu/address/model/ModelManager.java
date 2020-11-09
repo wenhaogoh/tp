@@ -48,7 +48,7 @@ public class ModelManager implements Model {
     private final History<VersionedNusave> history;
 
     /**
-     * Initializes a ModelManager with the given addressBook and userPrefs.
+     * Initializes a ModelManager with the given nusave and userPrefs.
      */
     public ModelManager(ReadOnlyNusave nusave, ReadOnlyUserPrefs userPrefs) {
         super();
@@ -176,8 +176,11 @@ public class ModelManager implements Model {
      * @param budget the budget to be added
      */
     @Override
-    public void addBudget(Budget budget) {
+    public void addBudget(Budget budget) throws CommandException {
         requireNonNull(budget);
+        if (nusave.isBudgetOverLimit()) {
+            throw new CommandException("You are not allowed to have more than 100 budgets");
+        }
         nusave.addBudgetToFront(budget);
         displayAllRenderables();
     }
@@ -299,9 +302,12 @@ public class ModelManager implements Model {
      * @param expenditure the expenditure to be added
      */
     @Override
-    public void addExpenditure(Expenditure expenditure) {
+    public void addExpenditure(Expenditure expenditure) throws CommandException {
         requireNonNull(expenditure);
         Optional<Integer> budgetIndex = this.state.getBudgetIndex();
+        if (nusave.isExpenditureOverLimit(budgetIndex)) {
+            throw new CommandException("You are not allowed to have more than 100 expenditures");
+        }
         nusave.addExpenditure(expenditure, this.state.getBudgetIndex());
         setTotalExpenditure(nusave.getTotalExpenditureValue(budgetIndex));
         displayAllRenderables();
