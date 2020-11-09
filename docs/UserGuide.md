@@ -165,6 +165,7 @@ Below is a table containing all the components that can be found in a budget car
 <br/>
 <br/>
 <br/>
+<br/>
 
 Component         | Purpose
 ----------------- | -------
@@ -792,6 +793,7 @@ Figure 5.3.7.1. Example of using the close budget command.
 
 You can find the meanings of some special keywords applicable to NUSave over here.
 
+<br/>
 <br/>
 <br/>
 <br/>
