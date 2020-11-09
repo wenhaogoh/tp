@@ -1130,6 +1130,8 @@ Priorities:
 | `* * *`  | user                                       | add an expenditure                        | add a new expenditure to a budget                                      |
 | `* * *`  | user                                       | delete an expenditure                     | remove an expenditure that I no longer need                            |
 
+<br/>
+
 | Priority | As a …​    | I want to …​               | So that I can…​                                     |
 | -------- | -------------- | ----------------------------- | ------------------------------------------------------ |
 | `* * *`  | user                                       | edit an expenditure                       | edit the name, price and tag that needs to be changed                  |
