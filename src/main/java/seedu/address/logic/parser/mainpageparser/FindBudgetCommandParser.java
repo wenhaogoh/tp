@@ -18,9 +18,6 @@ public class FindBudgetCommandParser implements Parser<FindBudgetCommand> {
      */
     @Override
     public FindBudgetCommand parse(String userInput) throws ParseException {
-        if (userInput.length() == 0) {
-            throw new ParseException(FindBudgetCommand.MESSAGE_USAGE);
-        }
         Name name = ParserUtil.parseBudgetName(userInput);
         return new FindBudgetCommand(name);
     }
