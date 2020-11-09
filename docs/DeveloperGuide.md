@@ -420,6 +420,8 @@ depicting a scenario when the user wants to create a budget for his Temasek Hall
 
 Figure 4.3.1.2: Sequence diagram of the `CreateBudgetCommand`.
 
+<br/>
+
 > Lifelines with a destroy marker (X) should end at the destroy marker (X) but due to a limitation of PlantUML, 
 the lifeline reaches the end of diagram.
 
