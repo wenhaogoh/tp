@@ -1635,7 +1635,9 @@ either sample data from when the application is first launched or a customised d
           
     5. Test case: `delete x`<br>
     Expected: No budget is deleted. You will get an error message stating that the index should be an integer.
-      
+
+<br/>
+
 #### Edit Commands
 
 1. Editing a budget
