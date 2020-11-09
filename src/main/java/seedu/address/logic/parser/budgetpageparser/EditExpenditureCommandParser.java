@@ -2,10 +2,12 @@ package seedu.address.logic.parser.budgetpageparser;
 
 import static java.util.Objects.requireNonNull;
 import static seedu.address.commons.core.Messages.MESSAGE_INVALID_COMMAND_FORMAT;
+import static seedu.address.commons.core.Messages.MESSAGE_MORE_THAN_THREE_TAGS;
 import static seedu.address.logic.parser.CliSyntax.PREFIX_NAME;
 import static seedu.address.logic.parser.CliSyntax.PREFIX_PRICE;
 import static seedu.address.logic.parser.CliSyntax.PREFIX_TAG;
 
+import java.util.Set;
 import java.util.stream.Stream;
 
 import seedu.address.logic.commands.budget.EditExpenditureCommand;
@@ -16,6 +18,7 @@ import seedu.address.logic.parser.Parser;
 import seedu.address.logic.parser.ParserUtil;
 import seedu.address.logic.parser.Prefix;
 import seedu.address.logic.parser.exceptions.ParseException;
+import seedu.address.model.tag.Tag;
 import seedu.address.state.expenditureindex.ExpenditureIndex;
 
 public class EditExpenditureCommandParser implements Parser<EditExpenditureCommand> {
@@ -47,7 +50,13 @@ public class EditExpenditureCommandParser implements Parser<EditExpenditureComma
                     ParserUtil.parsePrice(argMultimap.getValue(PREFIX_PRICE).get()));
         }
 
-        editExpenditureDescriptor.setTags(ParserUtil.parseTags(argMultimap.getAllValues(PREFIX_TAG)));
+        Set<Tag> tags = ParserUtil.parseTags(argMultimap.getAllValues(PREFIX_TAG));
+
+        if (tags.size() > 3) {
+            throw new ParseException(MESSAGE_MORE_THAN_THREE_TAGS);
+        }
+
+        editExpenditureDescriptor.setTags(tags);
 
         return new EditExpenditureCommand(index, editExpenditureDescriptor);
     }
