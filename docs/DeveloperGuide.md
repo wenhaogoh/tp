@@ -1720,6 +1720,9 @@ either sample data from when the application is first launched or a customised d
     4. Test case: `sort test`<br>
     Expected: Current expenditures will not be sorted. You will get an error message stating that the sort type is not supported.
 
+<br/>
+<br/>
+
 #### Find Commands
 1. Finding Budgets
 
