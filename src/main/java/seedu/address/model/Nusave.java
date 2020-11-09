@@ -122,6 +122,10 @@ public class Nusave implements ReadOnlyNusave {
         return budgetList.getIndexOfBudget(budget);
     }
 
+    public boolean isBudgetOverLimit() {
+        return budgetList.getSize() > 100;
+    }
+
     //=========== Expenditure ==================================================================================
     /**
      * Adds a expenditure to the NUSave budget according to its index.
@@ -163,6 +167,18 @@ public class Nusave implements ReadOnlyNusave {
         assert budgetIndexOpt.isPresent();
         int budgetIndex = budgetIndexOpt.get();
         return this.budgetList.getTotalExpenditureValue(budgetIndex);
+    }
+
+    /**
+     *
+     * @param budgetIndexOpt
+     * @return
+     */
+    public boolean isExpenditureOverLimit(Optional<Integer> budgetIndexOpt) {
+        assert budgetIndexOpt.isPresent();
+        int budgetIndex = budgetIndexOpt.get();
+        int expenditureSize = budgetList.getExpenditures(budgetIndex).getExpenditureSize();
+        return expenditureSize > 99;
     }
 
     //=========== ObservableList ==================================================================================

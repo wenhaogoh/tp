@@ -225,7 +225,7 @@ public class ModelManagerTest {
     }
 
     @Test
-    void sortBudgetsByName() {
+    void sortBudgetsByName() throws CommandException {
         ModelManager modelManager = new ModelManager(getTypicalNusave(), new UserPrefs());
 
         modelManager.addBudget(getSubwayBudget());
@@ -240,7 +240,7 @@ public class ModelManagerTest {
     }
 
     @Test
-    void sortBudgetsByCreatedDate() {
+    void sortBudgetsByCreatedDate() throws CommandException {
         ModelManager modelManager = new ModelManager(getTypicalNusave(), new UserPrefs());
 
         modelManager.addBudget(getMcDonaldsBudget());
@@ -263,7 +263,7 @@ public class ModelManagerTest {
     }
 
     @Test
-    void addExpenditure() {
+    void addExpenditure() throws CommandException {
         ModelManager modelManager = new ModelManager(getTypicalNusave(), new UserPrefs());
         modelManager.openBudget(new BudgetIndexManager(0));
         modelManager.addExpenditure(getMcMuffinExpenditure());

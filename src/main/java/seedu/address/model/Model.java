@@ -64,7 +64,7 @@ public interface Model {
 
     void closeBudget();
 
-    void addBudget(Budget budget);
+    void addBudget(Budget budget) throws CommandException;
 
     void editBudget(Budget toEdit, Budget editedBudget);
 
