@@ -623,6 +623,8 @@ Figure 4.3.3.1.2: Sequence diagram of the `EditBudgetCommand`.
 > Lifelines with a destroy marker (X) should end at the destroy marker (X) but due to a limitation of PlantUML, 
 the lifeline reaches the end of diagram.
 
+<br/>
+
 1. Beginning with the `LogicManager`, the `LogicManager` hands the given user input to the `MainPageParser` 
 to be parsed.
 2. The `MainPageParser` will identify the command given by the user and create an `EditBudgetCommandParser`.
