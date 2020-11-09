@@ -816,6 +816,11 @@ You can find the meanings of some special keywords applicable to NUSave over her
 | Budget Page                 | Refers to the page that displays the list of expenditures belonging in a specific budget that is stored in NUSave.                                                             
 | Threshold                   | Refers to the target limit that can be spent in that budget.
 
+<br/>
+<br/>
+<br/>
+<br/>
+
 ## 8. FAQ
 (Contributed by Chin Hui)
 
