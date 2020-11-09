@@ -189,6 +189,8 @@ Below is a table containing all the components that can be found on a budget pag
 <br/>
 <br/>
 <br/>
+<br/>
+<br/>
 
 Component | Purpose
 --------- | -------
@@ -480,6 +482,11 @@ This will display all budgets that are currently stored in NUSave as seen in Fig
 
 Figure 5.2.5.1. Example of using the list budgets command.
 
+<br/>
+<br/>
+<br/>
+<br/>
+
 #### 5.2.6. Sorting budgets: `sort`
 
 (Contributed by Yu Ming)
@@ -736,14 +743,15 @@ This will close the current budget named "NUS Hackers Monthly Budget" as seen in
 
 Figure 5.3.7.1. Example of using the close budget command.
 
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
 ## 6. Command Summary
 (Contributed by Yu Ming)
-
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
 
 ### 6.1. Universal commands
 
@@ -784,6 +792,7 @@ Figure 5.3.7.1. Example of using the close budget command.
 
 You can find the meanings of some special keywords applicable to NUSave over here.
 
+<br/>
 <br/>
 <br/>
 <br/>
