@@ -1637,6 +1637,8 @@ either sample data from when the application is first launched or a customised d
     Expected: No budget is deleted. You will get an error message stating that the index should be an integer.
 
 <br/>
+<br/>
+<br/>
 
 #### Edit Commands
 
