@@ -169,6 +169,11 @@ public class Nusave implements ReadOnlyNusave {
         return this.budgetList.getTotalExpenditureValue(budgetIndex);
     }
 
+    /**
+     *
+     * @param budgetIndexOpt
+     * @return
+     */
     public boolean isExpenditureOverLimit(Optional<Integer> budgetIndexOpt) {
         assert budgetIndexOpt.isPresent();
         int budgetIndex = budgetIndexOpt.get();
