@@ -675,6 +675,8 @@ Figure 4.3.3.2.1: Sequence diagram of the `EditExpenditureCommand`.
 > Lifelines with a destroy marker (X) should end at the destroy marker (X) but due to a limitation of PlantUML, 
 the lifeline reaches the end of diagram.
 
+<br/>
+
 1. Beginning with the `LogicManager`, the `LogicManager` hands the given user input to the `BudgetPageParser` 
 to be parsed.
 2. The `BudgetPageParser` will identify the command given by the user and create an `EditExpenditureCommandParser`.
@@ -1111,8 +1113,8 @@ Priorities:
 * Medium (nice to have) - `* *`
 * Low (unlikely to have) - `*`
 
-| Priority | As a …​                                 | I want to …​                           | So that I can…​                                                     |
-| -------- | ------------------------------------------ | ----------------------------------------- | ---------------------------------------------------------------------- |
+| Priority | As a …​    | I want to …​               | So that I can…​                                     |
+| -------- | -------------- | ----------------------------- | ------------------------------------------------------ |
 | `* * *`  | new user                                   | see a list of available commands          | refer to instructions when I forget how to use the application         |
 | `* * *`  | new user                                   | view sample data                          | have a better understanding of how the application works               |
 | `* * *`  | new user                                   | clear my existing data                    | remove all the sample data from my application                         |
@@ -1127,6 +1129,9 @@ Priorities:
 | `* *`    | user                                       | see how many expenditures I have in a budget | have a better understanding of the particular budget                |
 | `* * *`  | user                                       | add an expenditure                        | add a new expenditure to a budget                                      |
 | `* * *`  | user                                       | delete an expenditure                     | remove an expenditure that I no longer need                            |
+
+| Priority | As a …​    | I want to …​               | So that I can…​                                     |
+| -------- | -------------- | ----------------------------- | ------------------------------------------------------ |
 | `* * *`  | user                                       | edit an expenditure                       | edit the name, price and tag that needs to be changed                  |
 | `* *`    | user                                       | sort my expenditures                      | view my expenditures based on name or date                             |
 | `* *`    | user                                       | find an expenditure by search term        | locate an expenditure easily                                           |
