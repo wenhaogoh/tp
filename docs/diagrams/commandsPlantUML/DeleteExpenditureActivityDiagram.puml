@@ -3,7 +3,7 @@ start
 :User executes delete expenditure command;
 if() then ([is valid command])
     :Delete expenditure with index;
-    :Remove budget from the hard disk;
+    :Remove expenditure from the hard disk;
     :Display updated expenditure list;
 else ([else])
     :Display invalid command result to user;

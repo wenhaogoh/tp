@@ -7,7 +7,7 @@ start
 
 if () then ([is valid command])
     :Edit the specific expenditure within the budget;
-    :Replace existing expenditure with the newly edited expenditure in to the hard disk;
+    :Replace existing expenditure with the newly edited expenditure into the hard disk;
     :Display newly edited expenditure in NUSave;
 else ([else])
 :Display invalid command result to the user;
