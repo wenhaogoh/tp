@@ -200,8 +200,6 @@ Figure 3.4.1: Architecture diagram of the `Model` component.
 
 **API** : `Model.java`
 
-<br/>
-
 The `Model`:
 
 * Stores a `UserPref` object that represents the user’s preferences.
@@ -420,8 +418,6 @@ depicting a scenario when the user wants to create a budget for his Temasek Hall
 
 Figure 4.3.1.2: Sequence diagram of the `CreateBudgetCommand`.
 
-<br/>
-
 > Lifelines with a destroy marker (X) should end at the destroy marker (X) but due to a limitation of PlantUML, 
 the lifeline reaches the end of diagram.
 
@@ -623,8 +619,6 @@ Figure 4.3.3.1.2: Sequence diagram of the `EditBudgetCommand`.
 > Lifelines with a destroy marker (X) should end at the destroy marker (X) but due to a limitation of PlantUML, 
 the lifeline reaches the end of diagram.
 
-<br/>
-
 1. Beginning with the `LogicManager`, the `LogicManager` hands the given user input to the `MainPageParser` 
 to be parsed.
 2. The `MainPageParser` will identify the command given by the user and create an `EditBudgetCommandParser`.
@@ -674,8 +668,6 @@ depicting a scenario where the user would like to edit the first expenditure on 
 Figure 4.3.3.2.1: Sequence diagram of the `EditExpenditureCommand`.
 > Lifelines with a destroy marker (X) should end at the destroy marker (X) but due to a limitation of PlantUML, 
 the lifeline reaches the end of diagram.
-
-<br/>
 
 1. Beginning with the `LogicManager`, the `LogicManager` hands the given user input to the `BudgetPageParser` 
 to be parsed.
@@ -1129,11 +1121,6 @@ Priorities:
 | `* *`    | user                                       | see how many expenditures I have in a budget | have a better understanding of the particular budget                |
 | `* * *`  | user                                       | add an expenditure                        | add a new expenditure to a budget                                      |
 | `* * *`  | user                                       | delete an expenditure                     | remove an expenditure that I no longer need                            |
-
-<br/>
-
-| Priority | As a …​    | I want to …​               | So that I can…​                                     |
-| -------- | -------------- | ----------------------------- | ------------------------------------------------------ |
 | `* * *`  | user                                       | edit an expenditure                       | edit the name, price and tag that needs to be changed                  |
 | `* *`    | user                                       | sort my expenditures                      | view my expenditures based on name or date                             |
 | `* *`    | user                                       | find an expenditure by search term        | locate an expenditure easily                                           |
@@ -1636,11 +1623,6 @@ either sample data from when the application is first launched or a customised d
     5. Test case: `delete x`<br>
     Expected: No budget is deleted. You will get an error message stating that the index should be an integer.
 
-<br/>
-<br/>
-<br/>
-<br/>
-
 #### Edit Commands
 
 1. Editing a budget
@@ -1719,11 +1701,6 @@ either sample data from when the application is first launched or a customised d
     
     4. Test case: `sort test`<br>
     Expected: Current expenditures will not be sorted. You will get an error message stating that the sort type is not supported.
-
-<br/>
-<br/>
-<br/>
-<br/>
 
 #### Find Commands
 1. Finding Budgets
