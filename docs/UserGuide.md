@@ -200,9 +200,6 @@ Below is a table containing all the components that can be found on a budget pag
 <br/>
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
 
 Component | Purpose
 --------- | -------
@@ -221,11 +218,6 @@ Figure 3.2.2. Example of an expenditure card.
 
 Below is a table containing all the components that can be found in an expenditure card accompanied by their respective purposes:
 
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
 <br/>
 <br/>
 
