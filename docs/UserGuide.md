@@ -147,6 +147,11 @@ Figure 3.1.1. Example of the main page view.
 
 Below is a table containing all the components that can be found on the main page accompanied by their respective purposes:
 
+<br/>
+<br/>
+<br/>
+<br/>
+
 Component      | Purpose
 -------------- | -------
 Command Box    | A text field for you to enter your commands.
